@@ -1,5 +1,5 @@
 /* ==========================================================================
-   10. Media Queries - Smaller than 900px
+   Smaller than 900px
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
@@ -118,9 +118,30 @@
 
 }
 
+/* ==========================================================================
+   Smaller than 768px (includes iPad portrait size)
+   ========================================================================== */
+
+@media only screen and (max-width: 768px) {
+
+    #content {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 0 16px;
+        max-width: 300px;
+        margin: 0 auto;
+        float: none;
+        clear: both;
+    }
+
+}
+
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 500px
+   Smaller than 500px
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
