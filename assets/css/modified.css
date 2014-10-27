@@ -4,16 +4,15 @@
 	margin: 0 auto;
 }
 
-#content {
-	width: 75%;
+.content {
+	width: calc(100% - (300px + 2rem));
 	float: left;
 }
 
 .sidebar {
-	width: calc(25% - 2rem);
+	width: 300px;
 	float: left;
 	margin-top: 4rem;
-	min-width: 160px;
 	box-sizing: border-box;
 	background:red;
 }

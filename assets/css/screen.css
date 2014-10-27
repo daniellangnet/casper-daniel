@@ -451,7 +451,7 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -480,7 +480,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-header-content {
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.7);
     padding: 30px 0;
 }
 
@@ -719,7 +719,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
-    width: 80%;
+    width: 90%;
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
@@ -875,7 +875,6 @@ body:not(.post-template) .post-title {
 
 /* Tweak the .post wrapper style */
 .post-template .post {
-    margin-top: 0;
     border-bottom: none;
     padding-bottom: 0;
 }
@@ -953,16 +952,6 @@ body:not(.post-template) .post-title {
     text-decoration: underline;
 }
 
-/* Drop the share links in the space to the right.
-   Doing it like this means it's easier for the author bio
-   to be flexible at smaller screen sizes while the share
-   links remain at a fixed width the whole time */
-.post-footer .share {
-    position: absolute;
-    top: 6rem;
-    right: 0;
-    width: 140px;
-}
 
 .post-footer .share a {
     font-size: 1.8rem;
@@ -1057,26 +1046,11 @@ body:not(.post-template) .post-title {
    6. Author profile
    ========================================================================== */
 
-.post-head.main-header {
-    height: 65%;
-    min-height: 180px;
-}
-
 .no-cover.post-head.main-header {
     height: 85px;
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
-}
-
-.tag-head.main-header {
-    height: 40%;
-    min-height: 180px;
-}
-
-.author-head.main-header {
-    height: 40%;
-    min-height: 180px;
 }
 
 .no-cover.author-head.main-header {
