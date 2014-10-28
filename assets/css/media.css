@@ -19,7 +19,7 @@
         height: 360px;
     }
 
-    .home-template .main-header:after { display: none; }
+    .main-header:after { display: none; }
 
     .archive-template .main-header {
         min-height: 180px;
