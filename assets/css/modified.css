@@ -39,3 +39,46 @@
 .sidebar .follow {
 	margin-left: 60px;
 }
+
+.sidebar .signup-form {
+	font-family: "Open Sans", sans-serif;
+	margin: 5px;
+	padding: 20px 20px 30px 20px;
+	background-color: #bd3526;
+	border-radius: 4px;
+	box-shadow: rgba(0,0,0, 0.2) 0px 0px 2px;
+}
+
+.sidebar .signup-form p {
+	margin: 0;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size:2rem;
+}
+
+.sidebar .signup-form .email {
+	font-size: 1.5rem;
+	padding: 8px 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: none;
+}
+
+.sidebar .signup-form .submit {
+	margin-top: 10px;
+	width: 100%;
+	background: transparent;
+	border: 1px solid white;
+	text-shadow: none;
+	border-radius: 4px;
+	color: white;
+	padding: 5px 0;
+}
+
+.sidebar .signup-form .submit:hover {
+	transition: .07s ease-in;
+	background: rgba(255,255,255,0.1);
+}
